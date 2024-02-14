@@ -48,16 +48,18 @@ const Img = styled.img`
 
 const ImgBox = styled.div`
 
+display: flex;
+height: 100vh;
+align-items: center;
   position: relative;
 
 
-  display: flex;
-  align-items: center;
 
-  height: 100vh;
   @media screen and (max-width: 768px) {
     height: auto;
-    margin-top: 200px;
+    margin-top: 100px;
+  
+    background-color: red;
   }
 
   @media screen and (max-width: 390px) {
@@ -172,9 +174,15 @@ const Icons = styled.div`
   display: flex;
   gap: 1.2rem;
   align-items: center;
-  margin-top: 8rem;
+  margin-top: 4rem;
   @media screen and (max-width: 768px) {
     margin-top: 0rem;
+  }
+  @media screen and (max-width: 390px) {
+   
+   justify-content: space-evenly;
+   gap: 0rem;
+  
   }
 `;
 
@@ -208,7 +216,17 @@ const Icon = styled.a`
   &:hover::before {
     width: 100%;
   }
+
+  
+  @media screen and (max-width:421px) {
+    width: 35px;
+    height:35px;
+    /* padding-bottom: 100px; */
+  }
 `;
+
+
+
 
 const FooterHome = styled.div`
   position: relative;
@@ -220,13 +238,7 @@ const FooterHome = styled.div`
     align-items: center;
   }
 
-  @media screen and (max-width: 390px) {
-    flex-direction: column;
 
-    align-items: start;
-    gap: 2rem;
-    /* padding-bottom: 100px; */
-  }
 `;
 
 const Home = () => {
@@ -240,8 +252,8 @@ const Home = () => {
       typeSpeed: 40,
       loop: true,
       backDelay: 2000,
-
-      startDelay: 200,
+      
+      startDelay: 300,
       backSpeed: 20,
       cursorChar: "",
     });
