@@ -47,7 +47,9 @@ const Img = styled.img`
 `;
 
 const ImgBox = styled.div`
+
   position: relative;
+
 
   display: flex;
   align-items: center;
@@ -55,6 +57,11 @@ const ImgBox = styled.div`
   height: 100vh;
   @media screen and (max-width: 768px) {
     height: auto;
+    margin-top: 200px;
+  }
+
+  @media screen and (max-width: 390px) {
+    margin-top: 150px;
   }
 `;
 
@@ -68,9 +75,16 @@ const Shape = styled.div`
   height: 100%;
 
   @media screen and (max-width: 768px) {
+    margin-top: 100px;
     width: 70%;
 
     right: 100px;
+  }
+
+  @media screen and (max-width: 533px) {
+
+
+    right: 60px;
   }
 `;
 
@@ -86,9 +100,13 @@ const ShapeBlur = styled.div`
   filter: blur(30px);
 
   @media screen and (max-width: 768px) {
+    margin-top: 100px;
     width: 70%;
-
     right: 100px;
+  }
+
+  @media screen and (max-width: 533px) {
+    right: 60px;
   }
 `;
 
@@ -207,7 +225,7 @@ const FooterHome = styled.div`
 
     align-items: start;
     gap: 2rem;
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
   }
 `;
 
