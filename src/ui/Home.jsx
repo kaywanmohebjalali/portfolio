@@ -277,9 +277,7 @@ const Home = () => {
         <H3 ref={el}></H3>
 
         <P>
-          My work is front-end development and artificial intelligence, and I
-          specialize in cyber security, and I have been working in this position
-          for 2 years.
+        My work is front-end website development and I have been working for about 1 year
           <ShowAnimate direction="left" speed="2.5" name="p"></ShowAnimate>
         </P>
 
@@ -301,13 +299,13 @@ const Home = () => {
             ></ShowAnimate>
 
             <Icons>
-              <Icon href="">
+              <Icon href="https://github.com/kaywanmohebjalali">
                 <FaGithub size="1.3rem" />
               </Icon>
-              <Icon href="">
+              <Icon href="https://www.instagram.com/kaywan.mo">
                 <FaInstagram size="1.3rem" />
               </Icon>
-              <Icon href="">
+              <Icon href="https://www.linkedin.com/in/kaywan-mohebjalali-89b414163/">
                 <FaLinkedinIn size="1.3rem" />
               </Icon>
             </Icons>
