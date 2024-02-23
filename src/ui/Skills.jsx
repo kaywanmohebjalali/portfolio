@@ -199,7 +199,7 @@ const Skills = () => {
           <SkillBar>
             <Info>
               <P>CSS</P>
-              <P>85%</P>
+              <P>80%</P>
             </Info>
             <Bar>
               <SpanBar percent={88} time={2} animate={"css"}></SpanBar>
@@ -220,7 +220,7 @@ const Skills = () => {
           <SkillBar>
             <Info>
               <P>REACT</P>
-              <P>90%</P>
+              <P>80%</P>
             </Info>
 
             <Bar>
@@ -231,7 +231,7 @@ const Skills = () => {
           <SkillBar>
             <Info>
               <P>TYPESCRIPT</P>
-              <P>78%</P>
+              <P>70%</P>
             </Info>
 
             <Bar>
@@ -265,7 +265,7 @@ const Skills = () => {
                 })}
 
                 {Array.from(
-                  { length: Math.round((45 * 90) / 100) },
+                  { length: Math.round((45 * 20) / 100) },
                   (v, k) => k
                 ).map((item) => {
                   return <Points key={item} i={item * 8}></Points>;
@@ -273,7 +273,7 @@ const Skills = () => {
               </Circle>
 
               <Text>
-                <Big>90%</Big>
+                <Big>20%</Big>
                 <Small>Team Work</Small>
               </Text>
             </Box>
@@ -303,7 +303,7 @@ const Skills = () => {
                   return <PointsAll key={item} i={item * 8}></PointsAll>;
                 })}
                 {Array.from(
-                  { length: Math.round((45 * 30) / 100) },
+                  { length: Math.round((45 * 10) / 100) },
                   (v, k) => k
                 ).map((item) => {
                   return <Points key={item} i={item * 8}></Points>;
@@ -311,7 +311,7 @@ const Skills = () => {
               </Circle>
 
               <Text>
-                <Big>30%</Big>
+                <Big>10%</Big>
                 <Small>Project Management</Small>
               </Text>
             </Box>
